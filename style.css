@@ -204,15 +204,22 @@ padding-left: 35px;
 }
 /*-------------------- Section-three-------------- */
 .section-three .content{
- background-image: url("./image/bg_4.jpg");
+ background-image: url("./image/bg_1.jpg");
  background-repeat: no-repeat;
  background-size: cover;
- height: 100vh;
+ height: 60vh;
  margin-top: 35px;
+ padding-bottom: 50px;
+ background-position: center;
 }
 .section-three .pub{
-    margin-left: 474px;
-    padding-top: 60px;
+    text-align: center;
+width: 778px;
+margin-top: 50px;
+padding-top: 90px;
+padding-left: 202px;
+
+    
 }
 .section-three .pub h2{
     color: #fff;
