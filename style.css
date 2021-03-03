@@ -316,6 +316,7 @@ padding-left: 202px;
 /*------------- Section five  ************/
 .section-five{
     background-color:  #f8f9fa;
+    padding-left: 46px;
 }
 .section-five .title h2{
     font-size: 45px;
@@ -330,7 +331,93 @@ padding-left: 202px;
     line-height: 1.5;
     font-weight: 400;
    text-align: center;
+   margin-bottom: 33px;
+    color: rgba(0, 0, 0, 0.8);
+
+  }
+  /*--------------Section 5  ---------------*/
+  .d-flex{
+      display: flex;
+      justify-content: space-around;
+  }
+  .blog-entry img {
+    width: 370px;
+    height: 50vh;
+    position: relative;
+    border-radius: 5px;
+    
+  }
+  .blog-entry .img:hover{
+      transform: translateY(1);
+  }
+  .blog-items .flexy{
+    position: absolute;
+    margin-top: -304px;
+    padding-left: 10px;
+    width: 95px;
+    color: white;
+  }
+  .blog-items span{
+    font-size: 50px;
+    font-weight: 400;
+
+  }
+  .blog-entry h4{
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  .blog-entry .small{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+     color: #999999;
+     line-height: 1.8;
+    font-weight: 400;
+  }
+  .blog-entry .publication{
+      display: flex;
+   justify-content: space-around;
+  }
+  .blog-entry .publication button{
+      height: 48px;
+    padding: 14px 27px;
+    background-color: #4b69bd ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+    .blog-entry .publication .admin{
+        display: flex;
+        margin-top: -14px;
+        margin-right: 121px;
+        justify-content: space-between
+    }
+    .blog-entry .publication .admin i{
+        margin-top: 27px;
+    font-size: 21px;
+    padding-left: 18px;
+    }
+    .blog-entry .publication .admin h6{
+        font-size: 14px;
+        color: #999999;
+    }
+  /*-------------- Section Six  ------------------*/
+  .section-six .title h2{
+    font-size: 45px;
+    text-align: center;
    
+    
+    
+  }
+  .section-six .title  span{
+      color:#4b69bd ;
+      
+  }
+  .section-six .title p{
+    line-height: 1.5;
+    font-weight: 400;
+   text-align: center;
+   margin-bottom: 33px;
     color: rgba(0, 0, 0, 0.8);
 
   }
