@@ -404,7 +404,7 @@ padding-left: 202px;
   /*-------------- Section Six  ------------------*/
   .section-six .title h2{
     font-size: 45px;
-    text-align: center;
+    margin-left: 71px;
    
     
     
@@ -416,8 +416,25 @@ padding-left: 202px;
   .section-six .title p{
     line-height: 1.5;
     font-weight: 400;
-   text-align: center;
-   margin-bottom: 33px;
+    margin-left: 43px;
+    margin-bottom: 33px;
     color: rgba(0, 0, 0, 0.8);
 
+  }
+  .section-six  .contaiiner .items-img{
+    display: flex;
+    justify-content: center;
+  }
+  .section-six .contaiiner  .items-img .item-one{
+    width: 311px;
+      
+  }
+  .section-six .contaiiner  .items-img .item-one img{
+    width: 279px;
+  }
+  .section-six .contaiiner .items-img .agent-one{
+    padding-top: 143px;
+  }
+  .section-six .contaiiner .items-img .agent-two{
+        padding-top: 61px;
   }
