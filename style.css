@@ -122,7 +122,7 @@
   border-radius: 22px;
   border-radius: 33px 0 0 5px;
   outline: none;
-  color: #9dbfaf;
+  color: #000;
 }
 
 .searchTerm:focus {
@@ -205,7 +205,7 @@
   text-align: center;
   width: 966px;
   margin-top: 50px;
-  padding-top: 55px;
+  padding-top: 73px;
   padding-left: 202px;
 }
 .section-three .pub h2 {
@@ -325,7 +325,7 @@
 }
 .blog-entry img {
   width: 415px;
-    height: 40vh;
+  height: 40vh;
   position: relative;
   border-radius: 5px;
 }
@@ -504,6 +504,10 @@
   height: 140px;
   border-radius: 5px;
 }
+body {
+  overflow-x: hidden;
+  margin-right: -12px;
+}
 .section-seven .bloc-one .icon-4 {
   width: 233%;
   border: 1px solid transparent;
@@ -581,50 +585,50 @@
   color: #fff;
   text-decoration: none;
 }
-.section-eight .properties .image-pro .img-1{
+.section-eight .properties .image-pro .img-1 {
   padding-left: 148px;
 }
-.section-eight .properties .image-pro .img-pro{
+.section-eight .properties .image-pro .img-pro {
   margin-top: -288px;
 }
-.section-eight .description p{
-  width:  577px;
+.section-eight .description p {
+  width: 577px;
   line-height: 33px;
 }
 /********* Footer  ************/
-footer{
+footer {
   background: #11141b;
-  padding: 30px ;
+  padding: 30px;
   margin-top: 20px;
 }
-footer .footer-area{
+footer .footer-area {
   display: flex;
 }
-footer .bloc-one{
+footer .bloc-one {
   width: 338px;
-    margin-left: 39px;
+  margin-left: 39px;
 }
 footer .bloc-one p {
   line-height: 1.8;
-    margin-bottom: 30px;
-    color: #bdbdbd;
-    margin-top: 53px;
-    font-size: 14px;
+  margin-bottom: 30px;
+  color: #bdbdbd;
+  margin-top: 53px;
+  font-size: 14px;
 }
-footer .bloc-one h5{
+footer .bloc-one h5 {
   color: white;
   font-size: 25px;
   font-weight: 500;
   text-transform: capitalize;
 }
-footer .bloc-one span{
+footer .bloc-one span {
   color: #4b69bd;
 }
-footer .bloc-one .footer-paraa{
+footer .bloc-one .footer-paraa {
   color: #bdbdbd;
   font-size: 14px;
 }
-footer .fa-building{
+footer .fa-building {
   color: #4b69bd;
 }
 footer .bloc-one a {
@@ -633,28 +637,28 @@ footer .bloc-one a {
   color: white;
 }
 footer .bloc-two {
- margin-left: 75px;
-    width: 298px;
+  margin-left: 75px;
+  width: 298px;
 }
-footer .bloc-two h3{
+footer .bloc-two h3 {
   color: #fff;
-    font-family: "Barlow", sans-serif;
-    font-size: 18px;
-    margin-bottom: 38px;
-    font-weight: 500;
-    text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  margin-bottom: 38px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
-footer .bloc-two p{
+footer .bloc-two p {
   color: #bdbdbd;
   font-size: 14px;
 }
-footer .bloc-two h6{
-  color:#4b69bd;
-    font-size: 16px;
-    font-weight: 300;
-    margin-bottom: 10px;
+footer .bloc-two h6 {
+  color: #4b69bd;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
-footer .bloc-three h3{
+footer .bloc-three h3 {
   color: #fff;
   font-family: "Barlow", sans-serif;
   font-size: 18px;
@@ -663,42 +667,41 @@ footer .bloc-three h3{
   text-transform: uppercase;
   margin-left: 107px;
 }
-footer .bloc-three .feed-insta-1{
+footer .bloc-three .feed-insta-1 {
   display: flex;
   margin-left: 90px;
 }
-footer .bloc-three .feed-insta-1 img{
+footer .bloc-three .feed-insta-1 img {
   width: 108px;
   margin-bottom: 10px;
   padding-right: 10px;
-
 }
-.copyright{
+.copyright {
   color: #bdbdbd;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 2;
-    margin-bottom: 12px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 12px;
 }
 .copyright i {
   color: #4b69bd;
 }
-.footer-buttom{
+.footer-buttom {
   display: flex;
   justify-content: space-around;
-
 }
-.follow{
+.follow {
   display: flex;
   justify-content: space-around;
   color: #fff;
-   
-    margin-right: 57px;
+
+  margin-right: 57px;
 }
-.social-media{
+.social-media {
   margin-top: 15px;
   margin-left: 23px;
 }
-.fa-twitter,.fa-instagram{
+.fa-twitter,
+.fa-instagram {
   padding-right: 5px;
 }

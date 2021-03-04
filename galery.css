@@ -71,113 +71,295 @@
   border-bottom: 1px solid #4b69bd;
 }
 /************ End Navbar **************/
-.portfolio{
-    background-image: url("./image/about-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -38px;
+.portfolio {
+  background-image: url("./image/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 20px;
 }
-.portfolio h2{
-    color: #fff;
-    font-size: 44px;
-    padding-top: 86px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: capitalize;
-    line-height: 1;
+.portfolio h2 {
+  color: #fff;
+  font-size: 44px;
+  padding-top: 86px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1;
 }
 
-.containeeer{
-    width: 1000px;
-    position: relative;
-    display: flex;
-    margin-left: 165px;
-    justify-content: space-between;
+.containeeer {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  margin-left: 165px;
+  justify-content: space-between;
 }
 
-.containeeer .card{
-    position: relative;
-    cursor: pointer;
+.containeeer .card {
+  position: relative;
+  cursor: pointer;
 }
 
-.containeeer .card .face{
-    width: 300px;
-    height: 200px;
-    transition: 0.5s;
+.containeeer .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
 }
 
-.containeeer .card .face.face1{
-    position: relative;
-    background: #333;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
+.containeeer .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
 }
 
-.containeeer .card:hover .face.face1{
-    background: #4b69bd;
-    transform: translateY(0);
+.containeeer .card:hover .face.face1 {
+  background: #4b69bd;
+  transform: translateY(0);
 }
 
-.containeeer .card .face.face1 .content{
-    opacity: 0.2;
-    transition: 0.5s;
+.containeeer .card .face.face1 .content {
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
-.containeeer .card:hover .face.face1 .content{
-    opacity: 1;
+.containeeer .card:hover .face.face1 .content {
+  opacity: 1;
 }
 
-.containeeer .card .face.face1 .content img{
-    max-width: 100px;
+.containeeer .card .face.face1 .content img {
+  max-width: 100px;
 }
 
-.containeeer .card .face.face1 .content h3{
-    margin: 10px 0 0;
-    padding: 0;
-    color: #fff;
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 1.5em;
+.containeeer .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.5em;
 }
 
-.containeeer .card .face.face2{
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    transform: translateY(-100px);
+.containeeer .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
 }
 
-.containeeer .card:hover .face.face2{
-    transform: translateY(0);
+.containeeer .card:hover .face.face2 {
+  transform: translateY(0);
 }
 
-.containeeer .card .face.face2 .content p{
-    margin: 0;
-    padding: 0;
+.containeeer .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
 }
 
-.containeeer .card .face.face2 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
+.containeeer .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
 }
 
-.containeeer .card .face.face2 .content a:hover{
-    background: #333;
-    color: #fff;
+.containeeer .card .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
 }
+
 /*------------------  */
+.content-1 {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
+.content-2 {
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+}
+.cardd {
+  position: absolute;
+  display: none;
+  text-align: center;
+  margin-top: 200px;
+}
+.content-1:hover .cardd {
+  display: block;
+}
+.cardd .info h1 {
+  margin: 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.content-1 .cardd .info p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 8px;
+  color: #fff;
+}
+.content-1 .cardd .info button {
+  padding: 20px 30px 20px 30px;
+  outline: none;
+  border: none;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  background: dodgerblue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.content-1 .card .info button:hover {
+  background: white;
+  color: dodgerblue;
+}
+
+/********* Footer  ************/
+footer {
+  background: #11141b;
+  padding: 30px;
+  margin-top: 20px;
+}
+footer .footer-area {
+  display: flex;
+}
+footer .bloc-one {
+  width: 338px;
+  margin-left: 39px;
+}
+footer .bloc-one p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #bdbdbd;
+  margin-top: 53px;
+  font-size: 14px;
+}
+footer .bloc-one h5 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+footer .bloc-one span {
+  color: #4b69bd;
+}
+footer .bloc-one .footer-paraa {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+footer .fa-building {
+  color: #4b69bd;
+}
+footer .bloc-one a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+footer .bloc-two {
+  margin-left: 75px;
+  width: 298px;
+}
+footer .bloc-two h3 {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  margin-bottom: 38px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+footer .bloc-two p {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+footer .bloc-two h6 {
+  color: #4b69bd;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+footer .bloc-three h3 {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  margin-bottom: 38px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 107px;
+}
+footer .bloc-three .feed-insta-1 {
+  display: flex;
+  margin-left: 90px;
+}
+footer .bloc-three .feed-insta-1 img {
+  width: 108px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+.copyright {
+  color: #bdbdbd;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 12px;
+}
+.copyright i {
+  color: #4b69bd;
+}
+.footer-buttom {
+  display: flex;
+  justify-content: space-around;
+}
+.follow {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+
+  margin-right: 57px;
+}
+.social-media {
+  margin-top: 15px;
+  margin-left: 23px;
+}
+.fa-twitter,
+.fa-instagram {
+  padding-right: 5px;
+}
+.box-galery {
+  background-color: #333;
+  padding-bottom: 50px;
+}
+.aplay {
+  background: #4b69bd;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  border: none;
+  font-size: 14px;
+  padding: 27px 44px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  margin-top: 70px;
+  text-decoration: none;
+  margin-left: 500px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  text-align: center;
+}
